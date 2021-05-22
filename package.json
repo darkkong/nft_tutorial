@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.3.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "truffle-flattener": "^1.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0",
+    "prettier-plugin-solidity": "^1.0.0-beta.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
