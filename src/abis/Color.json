@@ -800,10 +800,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1525,
-                        1526
+                        1558,
+                        1559
                       ],
-                      "referencedDeclaration": 1525,
+                      "referencedDeclaration": 1558,
                       "src": "298:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -941,7 +941,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1522,
+                          "referencedDeclaration": 1555,
                           "src": "381:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1524,10 +1524,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1525,
-                                1526
+                                1558,
+                                1559
                               ],
-                              "referencedDeclaration": 1525,
+                              "referencedDeclaration": 1558,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1771,7 +1771,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1522,
+                                  "referencedDeclaration": 1555,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1916,6 +1916,12 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x9BCD39694aF80641cD3b757D1a6D22B95506E85b",
+      "transactionHash": "0x80e4ae6a27c5abec08d0f53c394e53e207370e4dfdbeb68aac32a8f8e34f70c5"
+    },
     "5777": {
       "events": {},
       "links": {},
@@ -1948,7 +1954,7 @@
     }
   },
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-05-22T13:23:27.911Z",
+  "updatedAt": "2021-05-26T05:29:31.028Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {
