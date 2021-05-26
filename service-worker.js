@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/npm_tutorial/precache-manifest.480d092785f4caf49f0da8251274676e.js"
+  "/nft_tutorial/precache-manifest.773fbebf151ef4f88f45a9eed497a9e1.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/npm_tutorial/index.html", {
+workbox.routing.registerNavigationRoute("/nft_tutorial/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
